@@ -9,7 +9,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class FibonacciController {
 
-    @GetMapping("/list")
+    @GetMapping("/all")
     public int [] getFibonacciNumbers(@RequestParam Integer n){
         int[] arr = new int[n];
         arr[0] = 0;
